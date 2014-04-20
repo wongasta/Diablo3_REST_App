@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainContainer .mainHeader{
+	font-weight: bold;
+	color: #005e8d;
+	margin: 25px 0 15px 0;
+}
+
+#waiting{
+	z-index: 2;
+	height: 100%;
+	background: #FFF;
+	position: absolute;
+}
+
+#waiting h1{
+	text-align: center;
+	margin-top: 300px;
+	font-weight: bold;
+	color: #005e8d;
+}
+
+#doneWaiting{
+	z-index: 1;
+}
+
+.mainContainer>.hero-unit{
+	margin: 15px 0;
+	padding: 20px;
+}
+
+.navPanelul{
+	margin-top: 17px;
+}
+
+.navPanelul .nav-header{
+	font-weight: bold;
+	color: #005e8d;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.navPanelul .nav-header>li{
+	margin: 5px 0;
+}
+
+.navPanelul li>a:hover{
+	font-weight: bold;
+}
+
+.characterPanels>div{
+	position: absolute;
+	min-height: 600px;
+	background: #fff;
+	margin: 0;
+}
+
+.hidden{
+	display: none;
+}
+
+.characterPanelDiv h2{
+	color: #005e8d;
+}
+
+.itemContainer{
+	margin-top: 40px;
+}
+
+.itemContainer .itemImage, .itemContainer .itemDesc{
+	text-align: center;
+	height: 100%;
+}
+
+.itemContainer .itemType{
+	min-height: 128px;
+	font-weight: bold;
+    line-height: 100px;
+}
+
+.formSelector{
+	padding-top: 30px;
+}
+
+.formSelector submit{
+	width: 140px;
+}
+
+.formSelector .formDiv{
+	margin: 0;
+}
+
+.error{
+	background-color: #facebd !important;
+}
